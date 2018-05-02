@@ -1,2 +1,2 @@
-# vision_aid
-YOLO + AlexaPi
+# API and Project Description
+**Version 1.0**
