@@ -36,7 +36,8 @@
 ## Demo
 ![capture3](https://user-images.githubusercontent.com/17104166/39505938-a1a3faee-4da3-11e8-92bf-0907cc0938d4.JPG)
 ![kakaotalk_20180502_012618656](https://user-images.githubusercontent.com/17104166/39506635-f0ca6eec-4da7-11e8-95f3-3fa22e642474.jpg)
-- Video Link: https://www.youtube.com/watch?v=yNhVX7sTI3Q&feature=youtu.be
+- Video Link 1: https://www.youtube.com/watch?v=4psumwgNf08&feature=youtu.be
+- Video Link 2: https://www.youtube.com/watch?v=yNhVX7sTI3Q&feature=youtu.be
 
 
 
