@@ -3,7 +3,6 @@
 # Project Description and API
 
 ## Motivation
-- [shama/gaze](https://github.com/shama/gaze) - Project logo. Concise description. Feature list. Usage section. FAQ. Great API documentation. Release history.
 - Technology for people with discomfort requires more improvement and effort
 - ~1.1 Million blind people in the US alone
 - Products for the blind are either very expensive or not helpful
@@ -11,28 +10,35 @@
 - Portability +  Accuracy +  Reliability = Wearable Device 
 
 
-## Articles
-- ["Art of Readme - Learn the art of writing quality READMEs."](https://github.com/noffle/art-of-readme) - *Stephen Whitmore*
+## Overall Architecture
+![capture](https://user-images.githubusercontent.com/17104166/39505897-59a0a990-4da3-11e8-82c2-efebffab20dd.JPG)
+
+## Hardware Specification
+![capture2](https://user-images.githubusercontent.com/17104166/39505919-7e04dcd4-4da3-11e8-8a37-161ecfdf738a.JPG)
+- Since it is a wearable device, we focused on making the prototype simple and lightweight
+- External Aux: Either connects to the speaker or headphones
+- USB Microphone
 
 
-## Tools
+## Software Specification
 
-- [Common Readme](https://github.com/noffle/common-readme) - A common readme style for Node. Includes a guide and a readme generator.
+- Flask-Ask API: Rapid Alexa Skills kit Development: Helps construct ask and tell responses
+- Tensorflow (deep-learning workstation; machine learning engine): for training process (natural language processing)
+- YOLO V2: real-time object detection system proposed by Joseph Redmon. Relatively simple algorithm but very very fast
+- Paramiko API(implementation of the SSHv2 protocol) to communicate between server on Pi 3 and client (by linux command)
 
+## Manual
+- Upon user’s command, REST API Server triggers snapshot.py on Pi3
+- Photo from Pi automatically transfers to the main computer
+- Main computer classifies the object and POSTs the output result to the server that is integrated with AlexaPi
+- AlexaPi spits out the result in word
 
-## Creating GIFs
+## Demo
+![capture3](https://user-images.githubusercontent.com/17104166/39505938-a1a3faee-4da3-11e8-92bf-0907cc0938d4.JPG)
+- Video Link: 
 
-Embedding an animated gif in your README quickly demonstrates what your project does and catches the reader's eye.  Here are a few programs that can help you quickly create gifs for your project:
+## Contributors
+- Ronald Fadehan
+- Keeseok Hong
+- Changmin Lee
 
-- [Gifox](https://gifox.io) - **$4.99** - Cleanest UI, hotkeys, lots of advanced features
-
-## Contribute
-
-Contributions are always welcome!
-Please read the [contribution guidelines](contributing.md) first.
-
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, [Matias Singers](http://mts.io) has waived all copyright and related or neighboring rights to this work.
