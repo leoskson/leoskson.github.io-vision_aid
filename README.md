@@ -2,9 +2,14 @@
 
 # Project Description and API
 
-## Examples
-
+## Motivation
 - [shama/gaze](https://github.com/shama/gaze) - Project logo. Concise description. Feature list. Usage section. FAQ. Great API documentation. Release history.
+- Technology for people with discomfort requires more improvement and effort
+- ~1.1 Million blind people in the US alone
+- Products for the blind are either very expensive or not helpful
+- A lot of technical challenges can be overcome by advanced computer vision algorithms and deep learning neural network
+- Portability +  Accuracy +  Reliability = Wearable Device 
+
 
 ## Articles
 - ["Art of Readme - Learn the art of writing quality READMEs."](https://github.com/noffle/art-of-readme) - *Stephen Whitmore*
